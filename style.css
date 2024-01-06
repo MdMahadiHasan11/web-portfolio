@@ -92,10 +92,21 @@ nav ul li a {
 
 /* main section start */
 /* About section start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 main .about{
     /* margin: 0 230px; */
     padding: 130px;
     border-radius: 10px;
     background-color:#FFF8F3 ;
     margin:100px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
